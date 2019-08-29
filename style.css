@@ -1,0 +1,84 @@
+/* .design {
+    background-color: beige;
+    display: flex;
+    justify-content: flex-start;
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    border: 5px;
+}
+
+img {
+    display: flex;
+    border-radius: 100px 100px;
+    height: 50px;
+    width: 50px;
+} */
+img{
+    
+}
+
+ body {
+    background-image: url(wea.jpg); 
+    text-align: center;
+}
+input{
+    border-bottom-color: black;
+    /* border:blue; 
+     border: 2px solid #0099CC;  */
+    border-radius: 6px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+button {
+    color: #0099CC;
+    background: blue;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(68, 58, 58);
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 20px;
+}
+footer:hover .fa-heart {
+    color: red;
+}
+
